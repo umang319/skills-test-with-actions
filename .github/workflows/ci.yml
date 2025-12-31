@@ -14,5 +14,8 @@ jobs:
       - name: Validate repository structure
         run: ls -la
 
+      - name: Intentional Failure Test
+        run: exit 1  # Force CI failure
+
       - name: Done
         run: echo "CI pipeline passed successfully!"
