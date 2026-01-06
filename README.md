@@ -31,4 +31,5 @@ The goal was to learn the fundamentals of CI/CD automation using GitHub Actions 
 ---
 
 ## GitHub Actions Workflow File
-Workflow located at:
+Workflow located at: .github/workflows/ci.yml
+
